@@ -12,11 +12,6 @@ class indexPage{
         })
         cy.get('#search_query_top').clear();
     }
-    index = () =>{
-        cy.fixture('index.json',(locators)=>{
-            cy.visit(locators.index);
-        }) 
-    }
 
 }
 
